@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Trabalho1</string>
+    <string-array name="motos">
+        <item>Cbr 650r</item>
+        <item>Cbr 600f</item>
+        <item>Cb 600f</item>
+        <item>Zx6r</item>
+        <item>S1000rr</item>
+        <item>Ninja 300</item>
+        <item>Zx10r</item>
+        <item>Ninja H2</item>
+        <item>Ninja H2R</item>
+        <item>Panigale V4S</item>
+        <item>XDiavel</item>
+        <item>CG Start</item>
+        <item>Shineray Debochada</item>
+    </string-array>
+
+    <string-array name="carros">
+        <item>Celta</item>
+        <item>Corsinha</item>
+        <item>Savero</item>
+        <item>Uno de escada</item>
+        <item>Siena rebaixado</item>
+        <item>Charrete</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Paredao">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient_background1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewMusica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sente a pressao nenem :"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonMusica1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOCAR" />
+
+        <TextView
+            android:id="@+id/textViewMusica2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boate Azul - Cachorrão do brega :"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonMusica2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOCAR" />
+
+        <TextView
+            android:id="@+id/textViewMusica3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take on me :"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonMusica3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOCAR" />
+
+        <TextView
+            android:id="@+id/textViewMusica4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Careless Whisper :"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonMusica4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOCAR" />
+
+        <TextView
+            android:id="@+id/textViewMusica5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boa noite vizinhaça :"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonMusica5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOCAR" />
+
+        <TextView
+            android:id="@+id/textViewMusica6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MC Poze anos 80"
+            android:textColor="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonMusica6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOCAR" />
+
+    </LinearLayout>
+</FrameLayout>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">SportsSpots</string>
+    <string name="app_name">Sports Spots</string>
     <string name="title_activity_maps_principal">Map</string>
     <string name="title_activity_maps">Map</string>
     <string name="title_activity_chat">ChatActivity</string>

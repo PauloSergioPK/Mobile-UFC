@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1011042650290",
+    "firebase_url": "https://sportsspots-e8692.firebaseio.com",
+    "project_id": "sportsspots-e8692",
+    "storage_bucket": "sportsspots-e8692.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011042650290:android:eee911ceb96f5268e7e1ab",
+        "android_client_info": {
+          "package_name": "com.psAndSephirita.sportsspots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011042650290-8nuoqa7hctk18p63a589th1e5238h3tt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.psAndSephirita.sportsspots",
+            "certificate_hash": "48ac090803ff5e004fa1643b74e224de30bd742f"
+          }
+        },
+        {
+          "client_id": "1011042650290-ihjp64ujav1msvn212lgsdp09i41ft9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvTqKcDGQENguRro76LNxfQ6PxcKfiYFE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011042650290-ihjp64ujav1msvn212lgsdp09i41ft9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".MainActivity">
+    tools:context=".activities.MainActivity">
 
     <ImageView
         android:id="@+id/imageFundoTelaLogin"
@@ -28,7 +28,7 @@
         android:adjustViewBounds="true"
         android:cropToPadding="true"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmailLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -49,14 +49,18 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextSenhaLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:ems="10"
-        android:hint="Digite sua senha :"
+        android:hint="senha :"
         android:inputType="textPassword"
+        android:shadowColor="#8F0B0B0B"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
         android:singleLine="true"
         android:textColor="#FFFFFF"
         android:textColorHint="#E3E3E3"
@@ -70,6 +74,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:clickable="true"
+        android:shadowColor="#8F0B0B0B"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
         android:text="Não possui conta ? Crie agora"
         android:textColor="#FFFFFF"
         android:textSize="14sp"
@@ -78,18 +86,22 @@
         app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editTextEmailLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:ems="10"
-        android:hint="Digite seu user :"
-        android:inputType="textPersonName"
+        android:hint="email :"
+        android:inputType="textEmailAddress"
+        android:shadowColor="#8F0B0B0B"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
         android:singleLine="true"
         android:textColor="#FFFFFF"
         android:textColorHint="#E3E3E3"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/editTextSenhaLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 

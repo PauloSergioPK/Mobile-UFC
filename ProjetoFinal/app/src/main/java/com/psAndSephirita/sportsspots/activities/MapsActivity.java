@@ -327,7 +327,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     protected void onStart() {
         super.onStart();
-        recuperarSpots();
+        //recuperarSpots();
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                recuperarSpots();
+            }
+        },0);
         atualizarMapa();
     }
 
